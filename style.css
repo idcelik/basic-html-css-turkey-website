@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+body {
+    background-color: #202020;
+    height: 100%;
+}
+
+.contain {
+    width: 970px;
+    height: 100%;
+    margin: 0 auto; 
+    border: 2px solid lightsteelblue;
+    margin-bottom: 40px;
+}
+
+.center {
+    background-color: #202020;
+    width: 970px;  
+}
+
+.bayrak {
+    width: 970px;
+    height: 250px;
+    background-color: black;
+    display: block; 
+}
+
+.left_side {}
+
+.image_area {
+    background-color: black;
+    display: block;  
+}
+
+.menu_head {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 150px;
+    float: left;
+    display: block;
+
+    opacity: .3;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+
+    transition: transform .7s ease-in-out;
+
+}
+
+.menu_head:hover {
+    opacity: 1;
+    transform: rotate(360deg);
+
+}
+
+.board {
+    margin: 0px auto;
+    margin-left: 50px;
+    padding: 0px;
+    width: 500px;
+    height: 250px;
+
+    transition: transform .7s ease-in-out;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.board:hover {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+
+
+}
+
+.left_menu {
+    background-color: black;
+    width: 240px;
+    height: 790px;
+    float: left;
+    margin-right: 10px; 
+}
+
+.left_menu ul li a {
+    display: block;
+    padding: 15px;
+    margin-left: 20px;
+    height: 50px;
+    line-height: 50px; 
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+
+.left_menu ul li a:hover {
+    color: lightskyblue;
+    border-right: 10px solid lightsteelblue;
+    font-size: 20px;
+}
+
+.right_side {
+    margin: 10px auto;
+    padding: 10px 10px 10px 10px; 
+}
+
+.right_side h2 {
+    font-size: 30px;
+    margin: 10px auto;
+    padding: 10px auto;
+    text-align: center;
+    color: lightskyblue;
+}
+
+.right_side h3 {
+    font-size: 18px;
+    text-align: left;
+    color: lightskyblue;
+}
+
+.right_side p {
+    text-align: justify;
+    font-weight: 150%;
+    font-size: 17px;
+    margin: 10px auto;
+    padding: 10px auto;
+    color: whitesmoke;
+    line-height: 25px; 
+}
+
+.right_side p:hover {
+    border-bottom: 1px solid lightsteelblue;
+
+}
